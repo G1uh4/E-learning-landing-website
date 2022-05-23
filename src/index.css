@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: 0.9em;
+}
+
+.footer{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  margin-bottom: -4em;
+  margin-top: 2em;
+  justify-content: space-around;
+  padding: 1em;
+  width: 77.1em;
+  background-color: rgb(42, 42, 92);
+  color: white;
+  
+}
+
+.styleFooterBtn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(150, 150, 188);
+  border: none;
+  padding: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.styleTextIcon{
+  font-weight: bolder;
+  color: rgb(42, 42, 92);
+}
+
+.styleBtn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 42, 92);
+  border: none;
+  padding: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.displayFirstPagePart{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4em;
+
+}
+
+
+.textWrapper{
+  width: 27em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.displayBlock{
+  display:block;
+}
+
+.styleImage{
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+}
+
+.partOneBtn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 42, 92);
+  border: none;
+  padding: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.box{
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 3px 5px 12px black;
+  text-align: center;
+  width: 10em;
+  padding: 0.5em;
+  position: relative;
+  margin-bottom: -2em;
+  margin-left: 10em;
+}
+
+.boxTwo{
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 3px 5px 12px black;
+  text-align: center;
+  width: 10em;
+  padding: 0.5em;
+  position: relative;
+  margin-top: -4em;
+  margin-left: -2em;
+}
+
+.cardBackground{
+  background-color: rgb(42, 42, 92);
+  width: 13em;
+  height: 11em;
+  padding: 2em;
+  border-radius: 12px;
+  margin-top: 2em;
+}
+
+.cardTextOne{
+  color: white;
+  margin-top: 2em;
+}
+
+
+
+.styleSecondCard{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 1em;
+  background: white;
+  box-shadow: 3px 4px 10px black;
+  width: 15em;
+  border-radius: 12px;
+  height: 13em;
+  margin-top: 2em;
+}
+
+.displayCards{
+  display: flex;
+  flex-flow:wrap;
+  gap: 1em;
+  justify-content: center;
+  width: 60em;
+  margin:0 auto;
+  padding: 4em;
+
+}
+
+.secondCardText{
+  margin-bottom: 3.5em;
+}
+
+.styleIcon{
+  background-color: rgb(42, 42, 92);
+  text-align: center;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  padding: 0.7em;
+  color: white;
+  margin-top: -2.4em;
+  
+}
+
+.startLink{
+  text-decoration: none;
+  background-color: rgb(42, 42, 92);
+  padding: 0.6em;
+  border-radius: 30px;
+  color: white;
+}
